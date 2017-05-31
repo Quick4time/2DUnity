@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: f3baa704cef7e54409bac97227628c97
+timeCreated: 1495318662
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 01_0
+    21300002: 01_1
+    21300004: 01_2
+    21300006: 01_3
+    21300008: 01_4
+    21300010: 01_5
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 01_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1027
+        width: 57
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 61}
+        - {x: -28.5, y: 61}
+        - {x: -28.5, y: -61}
+        - {x: 13.5, y: -61}
+        - {x: 28.5, y: -47}
+        - {x: 28.5, y: 28}
+      - - {x: 6.5, y: -30}
+        - {x: 7.5, y: -29}
+        - {x: 2.5, y: -34}
+        - {x: -0.5, y: -40}
+        - {x: 2.5, y: -39}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 01_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 783
+        width: 62
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -6.5}
+        - {x: 17, y: 3.5}
+        - {x: 18, y: 2.5}
+        - {x: 21, y: -1.5}
+        - {x: 31, y: -10.5}
+        - {x: 31, y: 23.5}
+        - {x: 23, y: 55.5}
+        - {x: -31, y: 55.5}
+        - {x: -31, y: 28.5}
+        - {x: -22, y: -44.5}
+        - {x: -5, y: -55.5}
+        - {x: 15, y: -55.5}
+        - {x: 18, y: -48.5}
+        - {x: 17, y: -43.5}
+        - {x: 31, y: -33.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 01_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 512
+        width: 68
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 62.5}
+        - {x: -34, y: 40.5}
+        - {x: -32, y: 35.5}
+        - {x: -34, y: 28.5}
+        - {x: -34, y: -42.5}
+        - {x: -28, y: -62.5}
+        - {x: -4, y: -62.5}
+        - {x: 34, y: -40.5}
+        - {x: 34, y: 22.5}
+        - {x: 7, y: 62.5}
+      - - {x: 4, y: 10.5}
+        - {x: 5, y: 7.5}
+        - {x: 6, y: 6.5}
+        - {x: 6, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 01_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 384
+        width: 57
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 63}
+        - {x: -28.5, y: 63}
+        - {x: -28.5, y: 41}
+        - {x: -26.5, y: 36}
+        - {x: -21.5, y: 32}
+        - {x: -28.5, y: 2}
+        - {x: -28.5, y: -16}
+        - {x: -0.5, y: -63}
+        - {x: 27.5, y: -63}
+        - {x: 28.5, y: -60}
+        - {x: 28.5, y: 26}
+        - {x: 27.5, y: 31}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 01_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 259
+        width: 71
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: -21}
+        - {x: 24.5, y: 2}
+        - {x: 8.5, y: 61}
+        - {x: -35.5, y: 61}
+        - {x: -35.5, y: -58}
+        - {x: -30.5, y: -61}
+        - {x: -4.5, y: -61}
+        - {x: 18.5, y: -48}
+        - {x: 35.5, y: -34}
+        - {x: 35.5, y: -27}
+      - - {x: 2.5, y: 9}
+        - {x: 3.5, y: 6}
+        - {x: 4.5, y: 5}
+        - {x: 4.5, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 01_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 43
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 61.5}
+        - {x: -21.5, y: -28.5}
+        - {x: -13.5, y: -61.5}
+        - {x: 21.5, y: -61.5}
+        - {x: 21.5, y: 55.5}
+        - {x: 13.5, y: 61.5}
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: Player
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
