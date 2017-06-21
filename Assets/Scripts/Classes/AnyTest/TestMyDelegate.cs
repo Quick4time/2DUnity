@@ -11,7 +11,7 @@ public class TestMyDelegate : MonoBehaviour {
    // Delegates.Manager manager;
     private void Awake()
     {
-        Event.OnClicked += ClickTest; // Добавляем слущателя для Event'a
+        Event.OnClicked += ClickTest; // Добавляем слушателя для Event'a
         action = gameObject.GetComponent<Delegates>();
         actionPattern = gameObject.GetComponent<DelegatePattern>();
         //manager = action.GetComponent<Manager>();

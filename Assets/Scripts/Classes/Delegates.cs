@@ -131,5 +131,76 @@ public class Delegates : MonoBehaviour
     }
     #endregion
     #region Dynamic pattern 
+    public class WorkerManager
+    {
+        void DoWork()
+        {
+            DoJob1();
+            DoJob2();
+            DoJob3();
+        }
+
+        private void DoJob1()
+        {
+            //Do some filing
+        }
+
+        private void DoJob2()
+        {
+            //Make coffee for the office
+        }
+
+        private void DoJob3()
+        {
+            //Stick it to the man
+        }
+    }
+
+    //A more intellegent WorkerManager
+    public class WorkerManager2
+    {
+        //WorkerManager delegate
+        delegate void MyDelegateHook();
+        MyDelegateHook ActionsToDo;
+
+        public string WorkerType = "Peon";
+
+        //On Startup, assign jobs to the worker, note this is configurable instead of fixed
+        void Start()
+        {
+            //Peons get lots of work to do
+            if (WorkerType == "Peon")
+            {
+                ActionsToDo += DoJob1;
+                ActionsToDo += DoJob2;
+            }
+            //Everyone else plays golf
+            else
+            {
+                ActionsToDo += DoJob3;
+            }
+        }
+
+        //On Update do the actions set on ActionsToDo
+        void Update()
+        {
+            ActionsToDo();
+        }
+
+        private void DoJob1()
+        {
+            //Do some filing
+        }
+
+        private void DoJob2()
+        {
+            //Make coffee for the office
+        }
+
+        private void DoJob3()
+        {
+            //Play Golf
+        }
+    }
     #endregion
 }
